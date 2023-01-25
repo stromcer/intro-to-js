@@ -39,22 +39,56 @@
 
 // EJERCICIOS CON MÉTODOS Y MATH
 
-// const leaveThisUncommented = 156.34589;
+const leaveThisUncommented = 156.34589;
 
 // 1. Cambia el tipo de leaveThisUncommented a string
 
+//const tipoString = String(leaveThisUncommented)
+//onsole.log(typeof(tipoString))
+//console.log(tipoString)
+
+
 // 1. Redondea leaveThisUncommented a dos decimales
+
+//const dosDecimales = leaveThisUncommented.toFixed(2);
+//console.log(dosDecimales)
+
 
 // 3. Determina si leaveThisUncommented es un número entero
 
+//const entero = Number.isInteger(leaveThisUncommented);
+//console.log(entero)
+
 // 4. Determina si leaveThisUncommented es NaN
+
+//const esNan = Number.isNaN(leaveThisUncommented);
+//console.log(esNan)
 
 // 5. Castea leaveThisUncommented a número entero
 
+//const nEntero = parseInt(leaveThisUncommented);
+//console.log(nEntero);
+
+
+
 // 6. Imprime el número PI
+
+//const numberPi = Math.PI ;
+//console.log(numberPi)
+
 
 // 7. Redondea leaveThisUncommented al número entero superior más cercano
 
+//const redondeoArriba = Math.ceil(leaveThisUncommented);
+//console.log(redondeoArriba)
+
+
 // 8. Redondea leaveThisUncommented al número entero inferior más cercano
 
+//const redondeoAbajo = Math.floor(leaveThisUncommented);
+//console.log(redondeoAbajo);
+
 // 9. Genera un número entero aleatorio del 1 al 3
+
+const random = Math.ceil(Math.random()*3)
+console.log(random)
