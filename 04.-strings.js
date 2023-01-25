@@ -89,6 +89,9 @@ const leaveThisUncommented = '   This is an Example String. Use your methods her
 
 // 8.- Divide leaveThisUncommented por el punto
 
+//const divididoPorPunto = leaveThisUncommented.split(".")
+//console.log(divididoPorPunto)
+
 
 // 9.- Obtén el fragmento de leaveThisUncommented que va desde el índice 30 hasta el final
 
@@ -96,5 +99,6 @@ const leaveThisUncommented = '   This is an Example String. Use your methods her
 //console.log(primeraParte)
 
 // 10.- Obtén el fragmento de leaveThisUncommented que va desde el índice 30 hasta el 46
+
 //const segundaParte = leaveThisUncommented.slice(30,46)
 //console.log(segundaParte)
