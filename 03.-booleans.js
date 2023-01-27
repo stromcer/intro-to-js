@@ -5,8 +5,8 @@
 // BOOLEAN
 // Sus valores son true o false
 
-const trueBool = true;
-const falseBool = false;
+// const trueBool = true;
+// const falseBool = false;
 
 // Podemos convertir otros datos y expresiones en booleanos por medio de
 // comparaciones lógicas o casteando su tipo (se tomará su valor)
@@ -36,8 +36,8 @@ const falseBool = false;
 // console.log(false && true);
 // console.log(true && true);
 
-// El operador || devuelve true si ambas partes de la comparación
-// son true. false en cualquier otro caso
+// El operador || devuelve true si cualquier parte de la comparación
+// es true. false en cualquier otro caso
 
 // console.log(true || false);
 // console.log(false || false);

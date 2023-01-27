@@ -50,9 +50,15 @@ const leaveThisUncommented = 156.34589;
 
 // 1. Redondea leaveThisUncommented a dos decimales
 
+<<<<<<< HEAD
 //const dosDecimales = leaveThisUncommented.toFixed(2);
 //console.log(dosDecimales)
 
+=======
+const num = 1;
+
+const num2 = num.toF
+>>>>>>> 6d14028092313a120b812e06f93e2b2e441ef200
 
 // 3. Determina si leaveThisUncommented es un número entero
 

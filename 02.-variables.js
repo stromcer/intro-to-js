@@ -4,7 +4,7 @@
 
 // var example;
 // example = 'Hello, world!';
-// console.log(example);
+// console.log(example); // Hello, world!
 
 // IMPORTANTE:
 // DEBEMOS DEFINIR Y ASIGNAR VALOR A LA VEZ:
@@ -42,7 +42,7 @@
 
 // console.log(notHoistedHello);
 
-// let notHoistedHello = 'Hello, world';
+// let notHoistedHello = 'Hello, world'; // ReferenceError
 
 
 // ---
