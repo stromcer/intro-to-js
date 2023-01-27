@@ -45,6 +45,10 @@
 
 // 1. Redondea leaveThisUncommented a dos decimales
 
+const num = 1;
+
+const num2 = num.toF
+
 // 3. Determina si leaveThisUncommented es un número entero
 
 // 4. Determina si leaveThisUncommented es NaN

@@ -3,9 +3,33 @@
 // Como las variables, lo primero que hacemos es declararlas,
 // para almacenarlas en la memoria. Luego podemos ejecutarlas
 
-// function exampleFunction() {
-//     console.log('Hello, world!');
+// const word = 'Hello';
+
+
+// function exampleFunction(firstWord, secondWord) {
+//     console.log(firstWord + ' ' + secondWord);
 // }
+
+// exampleFunction('hello', 'world');
+
+
+const addTwo = number => {
+    return number + 2;
+};
+
+
+
+
+
+// const addTwoNumbers = (firstNumber, secondNumber) => {
+//     const result = firstNumber + secondNumber;
+//     return result;
+// };
+
+
+
+
+// console.log(addTwoNumbers(2, 5));
 
 // exampleFunction();
 
@@ -54,6 +78,10 @@
 // resultado con los mismos parámetros)
 // 3. Debemos evitar los efectos secundarios en nuestras funciones
 // 4. Debemos tener mucho cuidado con el nombre de nuestras funciones
+
+
+const print = (word) => console.log(word);
+
 
 // Podemos utilizar funciones sin nombre. Las llamaremos funciones anónimas.
 
